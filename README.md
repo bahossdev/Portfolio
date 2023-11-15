@@ -2,8 +2,7 @@
 A portfolio webpage including info about the employee, work samples, and contact info
 
 ## Description
-
-Refactor the HTML and the CSS so that the codebase follows accessibility standards.
+The Employee Portfolio is a web application designed to showcase a potential employee's previous work. It provides a user-friendly interface for employers to sample a developer's portfolio, including the developer's name with an avatar, and links to sections about them, their work samples, and contact details.
 
 - Responsive layout that adapts to various screens and devices.
 - Interactive navigation links for easy access to different sections.
@@ -14,6 +13,10 @@ Refactor the HTML and the CSS so that the codebase follows accessibility standar
 ## Installation
 N/A
 
+## Usage
+
+Upon visiting the portfolio webpage, you will be presented with the developer's name, an avatar, and links to different sections. Clicking on any of the navigation links will smoothly scroll the UI to the corresponding section. If you click on the titles or images in the section about work samples, the developer's applications will open in a new tab.
+
 ## Credits
 
 To write the HTML and CSS I have read the solution to class activities, along with resources from MDN, W3School, and other similar educational websites.
@@ -23,6 +26,8 @@ To write the HTML and CSS I have read the solution to class activities, along wi
 Please refer to the LICENSE in the repo.
 
 ## Link to deployed application:
+
+https://bahossdev.github.io/Portfolio/
 
 ## Screenshot
 
