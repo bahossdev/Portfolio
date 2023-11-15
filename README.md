@@ -19,7 +19,7 @@ Upon visiting the portfolio webpage, you will be presented with the developer's 
 
 ## Credits
 
-To write the HTML and CSS I have read the solution to class activities, along with resources from MDN, W3School, and other similar educational websites.
+To write the HTML and CSS I have read the solution to class activities, along with resources from MDN, W3School, Stack Overflow, and other similar educational websites.
 
 ## License
 
@@ -28,6 +28,10 @@ Please refer to the LICENSE in the repo.
 ## Link to deployed application:
 
 https://bahossdev.github.io/Portfolio/
+
+## Link to the Repository:
+
+https://github.com/bahossdev/Portfolio.git
 
 ## Screenshot
 
