@@ -26,7 +26,4 @@ Please refer to the LICENSE in the repo.
 
 ## Screenshot
 
-
-https://github.com/bahossdev/Portfolio/blob/main/assets/images/screenshot.jpg
-
 ![screenshot](https://github.com/bahossdev/Portfolio/assets/148646212/01c30a92-dc36-4cfd-8c37-1f69a880e2b1)
