@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+</head>
+<body>
+    <!-- Header containing an avatar -->
+    <header>
+        <h1>Bahar Ossareh</h1>
+        <h2>Junior Developer</h2>
+        <img id="avatar" src="./assets/images/avatar.jpg" alt="an avatar of a girl with a laptop"/>
+    </header>
+
+    <!-- Navigation bar with titles linked to section-->
+    <nav>
+        <ul>
+            <li>
+                <a href="#about-me">About Me</a>
+                <a href="#work">Work</a>
+                <a href="#contact-me">Contact Me</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- The main sections with a gradient background -->
+    <main>
+        <!-- Section for info About Me -->
+        <section class="gradient">
+            <h3 id="about-me">About Me</h3>
+            <p>
+                I'm a musician and classical guitarist based in Newmarket, Ontario. On the performance front, I take my music across different provinces and countries to connect with diverse audiences. Meanwhile, in the world of research, I've been deeply engaged in a multidisciplinary project. This project involves crafting an app for composing guitar music, where I took charge of designing the algorithm. Collaborating closely with two programmers, we added features, fine-tuned the user interface, and tackled those pesky bugs. This journey not only pushed the boundaries of my musical world but also prompted me to delve deeper into programming. And voila! Here I am, currently immersed as a trainee at this <span class="tooltip">Coding Bootcamp!</span>
+            </p>
+        </section>
+
+        <!-- Section for work samples with their titles and relevant images -->
+        <section class="gradient">
+            <h3 id="work">Work</h3>
+
+            <!-- Section containing the first application linked to the application page-->
+            <section class="container1">
+                <h4 class="link"><a href="https://bahossdev.github.io/prework-study-guide/" target="_blank"> Prework Study Guide </a></h4>
+                <a href="https://bahossdev.github.io/prework-study-guide/" target="_blank"><img src="./assets/images/prework.png" alt="a screenshot of a webpage"/></a>
+            </section>
+
+            <!-- Sections containing other work samples with smaller images-->
+            <section class="container2">
+                <section id="small-img">
+                    <h4 class="link small"><a href="https://bahossdev.github.io/Module-1-Challenge/" target="_blank"> Semantic Site </a></h4>
+                    <a href="https://bahossdev.github.io/Module-1-Challenge/" target="_blank"><img src="./assets/images/semantic.png" alt="a screenshot of a webpage"/></a>
+                </section>
+
+                <section id="small-img">
+                    <h4 class="link small"><a href="#"> CSS Codes </a></h4>
+                    <a href="#"><img src="./assets/images/CSS.png" alt="a screenshot of a webpage"/></a>
+                </section>
+
+                <section id="small-img">
+                    <h4 class="link"><a href="#"> Mini Project </a></h4>
+                    <a href="#"><img src="./assets/images/sample.png" alt="a screenshot of a webpage"/></a>
+                </section>
+            </section>
+        </section>
+
+        <!-- Contact Form -->
+        <section class="gradient">
+            <h5 id="contact-me">Contact Me</h5>
+            <form>
+               <p>
+                <label for="username"> Name</label>
+                <input id="username" type="text" placeholder="Your name" class="place-holder"/>
+               </p>
+              
+               <p>
+                <label for="email"> Email Address</label>
+                <input id="username" type="text" placeholder="Your email address" class="place-holder"/>
+               </p>
+
+               <p>
+                <label for="like">How did you like my page?</label>
+                <select id="like">
+                    <option selected >Select One</option>
+                    <option>Meh 🫤</option>
+                    <option>You're getting there! 🤓</option>
+                    <option>It is perfect!! 🤥</option>
+                </select>
+              </p>
+
+              <p>
+                <label for="message">Message:</label>
+                <textarea id="message" placeholder="Please write your message here..." class="place-holder"></textarea>
+                </p>
+                <p>
+                <button>Submit</button>
+              </p>
+
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer and copyright -->
+    <footer>
+        <h6> Thanks for visiting!</h6>
+        <h6 id="light"> © Bahossdev 2023</h6>
+    </footer>
+</body>
+</html>
